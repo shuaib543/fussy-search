@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>Chatbot</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+
+<body>
+	<div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to search..">
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
+	<div id="container" class="container">
+		<div id="chat" class="chat">
+			<div id="messages" class="messages"></div>
+			<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+		</div>
+		<img src="bot.png" alt="Robot cartoon" height="500vh">
+	</div>
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="constants.js" ></script>
+<script type="text/javascript" src="speech.js" ></script>
+<script src="js/suggestions.js"></script>
+    <script src="js/script.js"></script>
+</html>
